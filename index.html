@@ -5,6 +5,8 @@
               *Goals
           2. Give Images vh
           3. Make Quicklinks Sticky
+          4. Maybe Remove fluid and make it just container
+          5. Make Header Responsive
            -->
 
 
@@ -18,13 +20,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- External CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>HW20 Challenge SamBee</title>
   </head>
   <body>
     <!-- HW20 Original Nav -->
     <header>
-        <a href="https://same-ux-bee.github.io/UX_UI_HW19/"><img src="images/logo.png"></a>
+        <a href="https://same-ux-bee.github.io/UX_UI_HW19/"><img src="/images/logo.png"></a>
         <ul>
           <li class="inline-block"><a href="#">ABOUT</a></li>
           <li><a href="#mySkills-container">SKILLS</a></li>
@@ -38,7 +40,7 @@
       <div class="row">
         <!-- Card: Image Overlay START -->
         <div class="col-12 card bg-dark text-black">
-          <img src="images/heroImage.png" class="card-img" alt="...">
+          <img src="/images/hero_image_placeholder.png" class="card-img" alt="...">
           <div class="card-img-overlay">
             <h1 class="card-title">Project Title: Descriptive Yet Concise</h1>
           </div>
@@ -48,63 +50,63 @@
     </div>
 
     <!-- Project Brief -->
-    <div class="container-fluid">
+    <div class="container my-5">
       <div class="row">
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <h2>Project Brief</h2>
           <p>Project overview: A brief summary of what your project covers, and what kind of impact it had on the company.</p>
         </div>
       </div>
       <div class="row">
-        <div class="card col-4">
+        <div class="card col-4 border-0">
           <h6>Role & Team</h6>
-          <ul>
-            <li>Role, Your Name</li>
-            <li>Role, Teammates Name</li>
-            <li>Role, Teammates Name</li>
+          <ul class="list-group">
+            <li class="list-group-item py-1 border-0">Role, Your Name</li>
+            <li class="list-group-item py-1 border-0">Role, Teammates Name</li>
+            <li class="list-group-item py-1 border-0">Role, Teammates Name</li>
           </ul>
         </div>
-        <div class="card col-4">
+        <div class="card col-4 border-0">
           <h6>Software</h6>
-          <ul>
-            <li>Figma & Figjam</li>
-            <li>Github</li>
-            <li>Bootstrap 4</li>
+          <ul class="list-group">
+            <li class="list-group-item py-1 border-0">Figma & Figjam</li>
+            <li class="list-group-item py-1 border-0">Github</li>
+            <li class="list-group-item py-1 border-0">Bootstrap 4</li>
           </ul>
         </div>
-        <div class="card col-4">
+        <div class="card col-4 border-0">
           <h6>Client, Date, Duration</h6>
-          <ul>
-            <li>Non-Profit</li>
-            <li>3 weeks</li>
-            <li>Summer 2023</li>
+          <ul class="list-group">
+            <li class="list-group-item py-1 border-0">Non-Profit</li>
+            <li class="list-group-item py-1 border-0">3 weeks</li>
+            <li class="list-group-item py-1 border-0">Summer 2023</li>
           </ul>
         </div>
       </div>
     </div>
 
     <!-- Challenge Section -->
-    <div class="container-fluid">
+    <div class="container my-5">
       <div class="row">
-        <div class="card col-7">
+        <div class="card col-7 border-0">
           <h2>The Challenge</h2>
           <p>For your challenge or problem overview, state the key issue or impact that the challenge/problem had on the user or customer. If you have additional information (business, product, etc), you may also include that here.</p>
-          <ul> It would also be beneficial to briefly mention: 
-            <li>How did the problem arise?</li>
-            <li>Who your user or customer is and what they’re experiencing or challenged by? Which led to this opportunity & solution.</li>
-            <li>Why is this problem important?</li>
+          <ul class="list-group"> It would also be beneficial to briefly mention: 
+            <li class="list-group-item py-2 border-0">How did the problem arise?</li>
+            <li class="list-group-item py-2 border-0">Who your user or customer is and what they’re experiencing or challenged by? Which led to this opportunity & solution.</li>
+            <li class="list-group-item py-2 border-0">Why is this problem important?</li>
           </ul>
         </div>
-        <div class="card col-5">
-          <img src="images/challenge_placeholder.png" width="100%">
+        <div class="card col-5 border-0">
+          <img src="/images/challenge_placeholder.png" width="100%">
         </div>
       </div>
     </div>
 
     <!-- Goal Section -->
-    <div class="container-fluid">
+    <div class="container my-5">
       <div class="row">
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <h2>Goals</h2>
           <p>What does success look like? Identify the key points that the user will use on your product as their achievement. Highlight goals your designs should meet at the end of the project.</p>
         </div>
@@ -113,11 +115,11 @@
         <div class="col-7">
           <!-- List Group Basic START -->
           <ul class="list-group">
-            <li class="list-group-item">Proposed Solution to the Problem</li>
-            <li class="list-group-item">Another Proposed Solution to the Problem</li>
-            <li class="list-group-item">Another Proposed Solution to the Problem</li>
-            <li class="list-group-item">Another Proposed Solution to the Problem</li>
-            <li class="list-group-item">Another Proposed Solution to the Problem</li>
+            <li class="list-group-item py-2 border-0">Proposed Solution to the Problem</li>
+            <li class="list-group-item py-2 border-0">Another Proposed Solution to the Problem</li>
+            <li class="list-group-item py-2 border-0">Another Proposed Solution to the Problem</li>
+            <li class="list-group-item py-2 border-0">Another Proposed Solution to the Problem</li>
+            <li class="list-group-item py-2 border-0">Another Proposed Solution to the Problem</li>
           </ul>
           <!-- List Group Basic END -->
         </div>
@@ -125,9 +127,9 @@
     </div>
     
     <!-- Design Process Quick-links -->
-    <div class="container-fluid">
+    <div class="container my-5">
       <div class="row">
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <div class="card-body">
             <h2>My Design Process</h2>
           </div>
@@ -136,24 +138,24 @@
       <div class="row">
         <div class="col-12">
           <!-- Nav Pills Justified START -->
-          <ul class="nav nav-pills nav-justified">
+          <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-              <a class="nav-link" href="#researchPhase">RESEARCH</a>
+              <a class="nav-link bg-dark text-light border border-dark rounded-0" href="#researchPhase">RESEARCH</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#definePhase">DEFINE</a>
+              <a class="nav-link bg-dark text-light border border-dark rounded-0" href="#definePhase">DEFINE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#ideatePhase">IDEATE</a>
+              <a class="nav-link bg-dark text-light border border-dark rounded-0" href="#ideatePhase">IDEATE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  href="#designPhase">DESIGN</a>
+              <a class="nav-link bg-dark text-light border border-dark rounded-0"  href="#designPhase">DESIGN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  href="#testPhase">TESTING</a>
+              <a class="nav-link bg-dark text-light border border-dark rounded-0"  href="#testPhase">TESTING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  href="#finalPrototypes">CLICKABLE PROTOTYPES</a>
+              <a class="nav-link bg-dark text-light border border-dark rounded-0"  href="#finalPrototypes">CLICKABLE PROTOTYPES</a>
             </li>
           </ul>
           <!-- Nav Pills Justified END -->
@@ -162,49 +164,49 @@
     </div>
     
     <!-- Research Section -->
-    <div class="container-fluid" id="researchPhase">
+    <div class="container my-5" id="researchPhase">
       <div class="row">
         <!-- Card Bottom Image Cap START -->
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <div class="card-body">
             <h3 class="card-title">Research & Analysis</h3>
             <p class="card-text">For anything related to your research process, be sure to clearly focus on your reasoning and explanation of what you did, why you did it, and what key findings or insights you took away from the process. You can add questions from your surveys, or interview session links (if available.)</p>
           </div>
-          <img src="images/research_masonary.png" class="card-img-bottom" alt="...">
+          <img src="/images/research_placeholder.png" class="card-img-bottom" alt="...">
         </div>
         <!-- Card Bottom Image Cap END -->
       </div>
     </div>
 
     <!-- User Persona -->
-    <div class="container-fluid" id="definePhase">
+    <div class="container my-5" id="definePhase">
       <div class="row">
         <!-- Card Bottom Image Cap START -->
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <div class="card-body">
             <h3 class="card-title">User Persona</h3>
             <p class="card-text">Write the key tasks that your users can do by regarding your study. Ensure your user persona contains the key tasks that your users can do by regarding your study, users’ priorities, Users’ pain points</p>     
           </div>
-          <img src="images/userflow_placeholder.png" class="card-img-bottom" alt="...">
+          <img src="/images/user_persona_placeholder.png" class="card-img-bottom" alt="...">
         </div>
         <!-- Card Bottom Image Cap END -->
       </div>
     </div>
 
      <!-- Defined Statements Section -->
-     <div class="container-fluid">
-      <div class="row">
+     <div class="container my-5">
+      <div class="row justify-content-around">
         <!-- Card with Header START-->
-        <div class="card col-6">
-          <h3 class="card-header">Problem Statement</h3>
+        <div class="card col-5">
+          <h3 class="card-header border-0 bg-white">Problem Statement</h3>
           <div class="card-body">
             <h5 class="card-title">Add your problem statement that you have defined after conducting research, analyzing the results, and ideating and prioritizing. Should align directly with your user persona, user flow, and design solution.</h5>
           </div>
         </div>
         <!-- Card with Header START-->
         <!-- Card with Header START-->
-        <div class="card col-6">
-          <h3 class="card-header">Value Proposition</h3>
+        <div class="card col-5">
+          <h3 class="card-header border-0 bg-white">Value Proposition</h3>
           <div class="card-body">
             <h5 class="card-title">Add your value proposition that you have defined after conducting research, analyzing the results, and ideating and prioritizing. Should align directly with your user persona, user flow, and design solution.</h5>
           </div>
@@ -214,97 +216,97 @@
     </div>
 
     <!-- User Journey Map -->
-    <div class="container-fluid" id="ideatePhase">
+    <div class="container my-5" id="ideatePhase">
       <div class="row">
         <!-- Card Bottom Image Cap START -->
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <div class="card-body">
             <h3 class="card-title">User Journey Map</h3>
             <p class="card-text">Explain in brief how you created this and how it affects your design in general</p>
           </div>
-          <img src="images/userflow_placeholder.png" class="card-img-bottom" alt="...">
+          <img src="/images/user_flow_placeholder.png" class="card-img-bottom" alt="...">
         </div>
         <!-- Card Bottom Image Cap END -->
       </div>
     </div>
 
     <!-- Concepts & Sketches -->
-    <div class="container-fluid">
+    <div class="container my-5">
       <div class="row">
         <!-- Card Bottom Image Cap START -->
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <div class="card-body">
             <h3 class="card-title">Ideation Phase</h3>
             <p class="card-text">CONCEPTS, SKETCHES, and LOW-FIDELITY WIREFRAMES. In this section, describe your process of working through your findings. This may include some notes on your discovery and/or research synthesis. It may also include low-fidelity explorations, concepts, prototypes, etc.   Anything that helped you explore ideas, possibilities, and possible solutions may be included here.</p>
           </div>
-          <img src="images/Sketches_ideation_placeholder.png" class="card-img-bottom" alt="...">
+          <img src="/images/ideation_placeholder.png" class="card-img-bottom" alt="...">
         </div>
         <!-- Card Bottom Image Cap END -->
       </div>
     </div>
 
     <!-- Visual Design -->
-    <div class="container-fluid" id="designPhase">
+    <div class="container my-5" id="designPhase">
       <div class="row">
         <!-- Card Bottom Image Cap START -->
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <div class="card-body">
             <h3 class="card-title">Visual Design</h3>
             <p class="card-text">The next plan of action was to create colour palettes and typography that would help communicate the brand’s identity and also give the product an exciting feel.</p>   
           </div>
-          <img src="images/styleGuide_placeholder.png" class="card-img-bottom" alt="...">
-          <img src="images/hiFiWireframes_placeholder.png" class="card-img-bottom" alt="...">
+          <img src="/images/style_guide_placeholder.png" class="card-img-bottom" alt="...">
+          <img src="/images/hi-fi_wireframes_placeholder.png" class="card-img-bottom" alt="...">
         </div>
         <!-- Card Bottom Image Cap END -->
       </div>
     </div>
 
     <!-- Testing Section -->
-    <div class="container-fluid" id="testPhase">
+    <div class="container my-5" id="testPhase">
       <div class="row">
         <!-- Card Bottom Image Cap START -->
-        <div class="card col-12">
+        <div class="card col-12 border-0">
           <div class="card-body">
             <h3 class="card-title">Test: Validation, Usability, & Feedback</h3>
             <p class="card-text">Designers who include a feedback, testing, or validation research phase will have designs that are more closely aligned with a real user or customer’s needs and goals. Discuss your experience of testing or gathering feedback on your interaction with users and/or customers. Including photos, data visualizations, charts, or bullet points of findings is a good way of showcasing your work.</p>
           </div>
-          <img src="images/userTesting_masonry.png" class="card-img-bottom" alt="...">
+          <img src="/images/user_testing_placeholder.png" class="card-img-bottom" alt="...">
         </div>
         <!-- Card Bottom Image Cap END -->
       </div>
     </div>
 
     <!-- Prototype Section -->
-    <div class="container-fluid" id="finalPrototypes">
+    <div class="container my-5" id="finalPrototypes">
       <div class="row">
         <div class="col-12">
           <h2>Responsive Prototypes</h2>
           <p>Below are clickable prototypes of final iteration.</p>
         </div>
         <div class="col-8">
-          <img src="images/iMac_proto_placeholder.png" width="100%">
+          <img src="images/iMac_prototype_placeholder.png" width="100%">
         </div>
         <div class="col-4">
-          <img src="images/iPhoneXR_proto_placeholder.png" width="100%">
+          <img src="/images/iPhoneXR_prototype_placeholder.png" width="100%">
         </div>
       </div>
     </div>
 
     <!-- Conclusion Section -->
-    <div class="container-fluid">
+    <div class="container my-5">
       <div class="row">
         <div class="col-12">
           <h2>Final Thoughts</h2>
           <p>Wrap it all up with a short conclusion. Not everything went as planned. List some things that didn’t go your team’s way and how you worked with others to come to a compromise.</p>
         </div>
         <div class="col-6">
-          <h5 class="card-header">Challenge Encountered</h5>
+          <h6 class="card-header border-0 bg-white">Challenge Encountered</h5>
           <div class="card-body">
             <p class="card-text">How did you compromise instead? What did you learn from this experience? How can you apply this to future projects?</p>
           </div>
         </div>
         <div class="col-6">
-          <h5 class="card-header">Another Challenge Encountered</h5>
+          <h6 class="card-header border-0 bg-white">Another Challenge Encountered</h5>
           <div class="card-body">
             <p class="card-text">How did you compromise instead? What did you learn from this experience? How can you apply this to future projects?</p>
           </div>
