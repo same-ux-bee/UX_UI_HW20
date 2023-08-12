@@ -1,3 +1,7 @@
+/* Rubik Font Family */
+body, h1, h2, h3, h4, h5, h6, p, a, button {
+  font-family: 'Rubik', sans-serif !important;
+}
 /* Original Header Style */
 html {
   scroll-behavior: smooth;
@@ -33,4 +37,34 @@ footer li {
 footer a {
   color: white;
   text-decoration: none;
+}
+
+/* Custom CSS */
+.brief_labels {
+  color: #333;
+}
+
+.goal {
+  font-weight: 500;
+  color: #333;
+}
+
+.quickLink {
+  background-color: lightgray !important;
+  border: 2px solid lightgray !important;
+  color: #333 !important;
+  font-weight: 500;
+  
+}
+
+.quickLink:hover {
+  color: ghostwhite !important;
+  background-color: #333 !important;
+  border: 2px solid #333 !important;
+  font-weight: 500;
+}
+
+.statement {
+  border: 3px solid black !important;
+  border-radius: 4% !important;
 }
