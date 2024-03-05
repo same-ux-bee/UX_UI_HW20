@@ -21,25 +21,25 @@
     </a>
     <ul>
       <li>
-        <a href="#">ABOUT</a>
+        <a class="m19nav" href="#">ABOUT</a>
       </li>
       <li>
-        <a href="https://same-ux-bee.github.io/UX_UI_HW19/#mySkills-container">SKILLS</a>
+        <a class="m19nav" href="https://same-ux-bee.github.io/UX_UI_HW19/#mySkills-container">SKILLS</a>
       </li>
       <li>
-        <a href="https://same-ux-bee.github.io/UX_UI_HW19/#sectionGrid">WORK</a>
+        <a class="m19nav" href="https://same-ux-bee.github.io/UX_UI_HW19/#sectionGrid">WORK</a>
       </li>
       <li>
-        <a href="#">CONTACT</a>
+        <a class="m19nav" href="#">CONTACT</a>
       </li>
     </ul>
   </header>
   <!-- END COPIED OVER M19 HEADER -->
 
   <!-- FLUID JUMBOTRON -->
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid m20hero">
     <div class="container">
-      <h1 class="display-4 text-center">CASE STUDY TEMPLATE MADE WITH BOOTSTRAP</h1>
+      <h1 class="display-4">CASE STUDY TEMPLATE</h1>
     </div>
   </div>
   <!--END FLUID JUMBOTRON -->
@@ -48,33 +48,35 @@
   <section class="container">
     <div class="row">
       <div class="col-12">
-        <h4> Your Name Here </h4>
-        <h2>TITLE OF THE PROJECT / CLIENT </h2>
-        <p>Project overview: A brief summary of what your project covers, and what kind of impact it had on the company.
+        <h4 class="text-muted">YOUR NAME HERE</h4>
+        <h2>Descriptive Title of Project & Client</h2>
+        <p>Provide a brief summary of what your project covers, and what kind of impact it had on the company. Be concise.
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-4">
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-        <h5>Role/Team</h5>
+        <h5 class="text-muted">Role/Team</h5>
         <p>Explain the team and which aspect of the project you handled or if you were the primary designer on the
           project</p>
       </div>
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-        <h5>Tools</h5>
+        <h5 class="text-muted">Tools</h5>
         <p>List out some of/all tools used during the course of the project</p>
       </div>
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-        <h5>Client/Date/Duration</h5>
+        <h5 class="text-muted">Client/Date/Duration</h5>
         <p>Write out when this project was done or the duration it took</p>
       </div>
     </div>
     <!-- HORIZONTAL IMAGE CARD -->
-    <div class="card mb-3 border-0">
-      <div class="row no-gutters">
+    <div class="card my-3 border-0">
+      <div class="row mb-4">
         <div class="col-md-6">
-          <div class="card-body">
-            <h5 class="card-title">The Challenge</h5>
+          <img class="img-fluid" src="images/challenge_image.png" alt="...">
+        </div>
+        <div class="col-md-6">
+            <h4 class="card-title">The Challenge</h4>
             <p class="card-text">For your challenge or problem overview, state the key issue or impact that the
               challenge/problem had on the user or customer. If you have additional information (business, product,
               etc), you may also include that here.
@@ -86,60 +88,158 @@
               <li>Why is this problem important?</li>
             </ul>
             </p>
-          </div>
-        </div>
-        <div class="col-md-6 ">
-          <img class="img-fluid" src="images/challenge_image.png" alt="...">
         </div>
       </div>
     </div>
-    <!-- HORIZONTAL IMAGE CARD END -->
-  </section>
-  <!-- END PROJECT BRIEF -->
-  <!-- NAV & GOALS SECTION -->
-  <section class="container">
-    <div class="row">
-      <div class="col-12">
-        <!-- NAV-BASED: FILL & JUSTIFY -->
-        <nav class="nav nav-pills nav-fill">
-          <a class="nav-link" href="#researchSection">RESEARCH</a>
-          <a class="nav-link" href="#defineSection">DEFINE</a>
-          <a class="nav-link" href="#ideateSection">IDEATE</a>
-          <a class="nav-link" href="#prototypeSection">PROTOTYPE</a>
-          <a class="nav-link" href="#testingSection">TESTING</a>
-        </nav>
-        <!-- NAV-BASED: END FILL & JUSTIFY -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <h3>Goals</h3>
+    <!-- END HORIZONTAL IMAGE CARD -->
+    <div class="row my-3">
+      <div class="col-6">
+        <h4 class="card-title">Goals</h4>
         <p>What does success look like? Identify the key points that the user will use on your product as their
           achievement. Highlight goals your designs should meet at the end of the project.
           <br>
           <br>
-        <ul class="list-unstyled">
-          <li class="h6">GOAL O1</li>
-          <br>
-          <li class="h6">GOAL O2</li>
-          <br>
-          <li class="h6">GOAL O3</li>
-          <br>
-        </ul>
+          <ul class="list-unstyled">
+            <li class="h6">GOAL O1</li>
+            <br>
+            <li class="h6">GOAL O2</li>
+            <br>
+            <li class="h6">GOAL O3</li>
+            <br>
+          </ul>
         </p>
+      </div>
+      <div class="col-md-6 ">
+        <img class="img-fluid" src="images/challenge_image.png" alt="...">
       </div>
     </div>
   </section>
-  <!-- END NAV & GOALS SECTION -->
+  <!-- END PROJECT BRIEF -->
+
+  <!-- NAV FOR PAGE SECTIONS -->
+  <section class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>Design Process</h3>
+        <!-- NAV-BASED: FILL & JUSTIFY -->
+        <nav class="nav nav-pills justify-content-between">
+          <a class="nav-link m20nav" href="#researchSection">RESEARCH</a>
+          <a class="nav-link m20nav" href="#defineSection">DEFINE</a>
+          <a class="nav-link m20nav" href="#ideateSection">IDEATE</a>
+          <a class="nav-link m20nav" href="#designSection">DESIGN</a>
+          <a class="nav-link m20nav" href="#testingSection">TESTING</a>
+        </nav>
+        <!-- NAV-BASED: END FILL & JUSTIFY -->
+      </div>
+    </div>
+  </section>
+  <!-- END FOR PAGE SECTIONS -->
 
   <!-- RESEARCH & ANALYSIS SECTION -->
-  <section id="researchSection" class="container">
+  <section id="researchSection my-4" class="container">
     <div class="row">
       <div class="card-body col-12 border-0">
-        <h5 class="card-title">Research & Analysis</h5>
+        <h3 class="card-title">Research & Analysis</h3>
         <p class="card-text">For anything related to your research process, be sure to clearly focus on your reasoning
           and explanation of what you did, why you did it, and what key findings or insights you took away from the
           process. You can add questions from your surveys, interview session links if available.</p>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-6">
+        <div class="card border-0">
+          <img src="images/research_analysis01.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card border-0">
+          <img src="images/research_analysis02.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="card border-0">
+          <img src="images/research_analysis03.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card border-0">
+          <img src="images/research_analysis04.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END RESEARCH & ANALYSIS SECTION -->
+
+  <!-- DEFINE SECTION -->
+  <section id="defineSection" class="container my-4">
+    <!-- IMAGE BOTTOM CAP CARD -->
+    <div class="row mb-4">
+      <div class="card-body col-12 border-0">
+        <h3 class="card-title">User Persona</h3>
+        <p class="card-text">Write the key tasks that your users can do by regarding your study. Ensure your user persona contains the key tasks that your users can do by regarding your study, users’ priorities, Users’ pain points</p>
+      </div>
+      <div class="card col-12 border-0">
+        <img src="images/user_persona.png" class="card-img-bottom" alt="...">
+      </div>
+    </div>
+    <!-- IMAGE BOTTOM CAP CARD -->
+    <div class="row">
+      <div class="card-body col-12 border-0">
+        <h3 class="card-title">User Flow OR Sitemap</h3>
+        <p class="card-text">Explain in brief how you created this and how it affects your design in general</p>
+      </div>
+      <div class="card col-12 border-0">
+        <img src="images/user_flow.png" class="card-img-bottom" alt="...">
+      </div>
+    </div>
+  </section>
+  <!--  END DEFINE SECTION -->
+
+  <!-- IDEATE SECTION -->
+  <section id="ideateSection" class="container mb-4">
+    <!-- IMAGE BOTTOM CAP CARD -->
+    <div class="row">
+      <div class="card-body col-12 border-0">
+        <h3 class="card-title">Concepts, Sketching, Wireframes</h3>
+        <p class="card-text">In this section, describe your process of working through your findings. This may include some notes on your discovery and/or research synthesis. It may also include low-fidelity explorations, concepts, prototypes, etc.
+          <br>
+          Anything that helped you explore ideas, possibilities, and possible solutions may be included here.
+          </p>
+      </div>
+      <div class="card col-12 border-0">
+        <img src="images/ideate_phase.png" class="card-img-bottom" alt="...">
+      </div>
+    </div>
+  </section>
+  <!--  END IDEATE SECTION -->
+
+  <!-- DESIGN SECTION -->
+  <section id="designSection" class="container">
+    <!-- IMAGE BOTTOM CAP CARD -->
+    <div class="row">
+      <div class="card-body col-12 border-0">
+        <h3 class="card-title">Visual Design & Prototype</h3>
+        <p class="card-text">The next plan of action was to create colour palettes and typography that would help communicate the brand’s identity and also give the product an exciting feel.</p>
+      </div>
+      <div class="card col-12 border-0">
+        <img src="images/styleGuide_01.png" class="card-img-bottom mb-3" alt="...">
+        <img src="images/Hi-Fi_Wireframes.png" class="card-img-bottom mb-3" alt="...">
+      </div>
+    </div>
+  </section>
+  <!--  END DESIGN SECTION -->
+
+  <!-- TESTING SECTION -->
+  <section id="testingSection" class="container">
+    <div class="row">
+      <div class="card-body col-12 border-0">
+        <h3 class="card-title">Test: Validation, Usability, Feedback</h3>
+        <p class="card-text">Designers who include a feedback, testing, or validation research phase will have designs that are more closely aligned with a real user or customer’s needs and goals.
+          <br>
+          Discuss your experience of testing or gathering feedback on your interaction with users and/or customers. Including photos, data visualizations, charts, or bullet points of findings is a good way of showcasing your work.
+        </p>
       </div>
     </div>
     <div class="row mb-3">
@@ -167,65 +267,66 @@
       </div>
     </div>
   </section>
-  <!-- END RESEARCH & ANALYSIS SECTION -->
+  <!-- END TESTING SECTION -->
 
-  <!-- DEFINE SECTION -->
-  <section id="defineSection" class="container">
-    <!-- IMAGE BOTTOM CAP CARD -->
+  <!-- FINAL PROTOTYPE SECTION -->
+  <section id="finalPrototype" class="container">
     <div class="row">
-      <div class="card col-12 border-0">
-        <div class="card-body">
-          <h5 class="card-title">User Persona</h5>
-          <p class="card-text">Write the key tasks that your users can do by regarding your study. Ensure your user persona contains the key tasks that your users can do by regarding your study, users’ priorities, Users’ pain points</p>
-        </div>
-        <img src="images/user_persona.png" class="card-img-bottom" alt="...">
-      </div>
-    </div>
-    <!-- IMAGE BOTTOM CAP CARD -->
-    <div class="row">
-      <div class="card col-12 border-0">
-        <div class="card-body">
-          <h5 class="card-title">User Flow OR Sitemap</h5>
-          <p class="card-text">Explain in brief how you created this and how it affects your design in general</p>
-        </div>
-        <img src="images/user_flow.png" class="card-img-bottom" alt="...">
+      <div class="col-12 card border-0 my-4">
+        <h3 class="card-title mb-3">Clickable High-Fi Prototype</h3>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsmQRQDGrzeThu3InWjdTAy%2FM16-21-%257C-Demo-Files%3Fpage-id%3D701%253A71%26type%3Ddesign%26node-id%3D701-78%26viewport%3D-241%252C916%252C0.3%26t%3D5D5lOv5orA66g4qU-1%26scaling%3Dscale-down%26starting-point-node-id%3D701%253A78%26mode%3Ddesign" allowfullscreen></iframe>
       </div>
     </div>
   </section>
-  <!--  END DEFINE SECTION -->
+  <!-- END FINAL PROTOTYPE SECTION -->
 
-  <!-- IDEATE SECTION -->
-  <section id="ideateSection" class="container">
-    <!-- IMAGE BOTTOM CAP CARD -->
+
+  <!-- CHALLENGES & CONCLUSION SECTION -->
+  <section id="conclusionSection" class="container">
     <div class="row">
-      <div class="card col-12 border-0">
-        <div class="card-body">
-          <h5 class="card-title">Concepts, Sketching, Wireframes</h5>
-          <p class="card-text">In this section, describe your process of working through your findings. This may include some notes on your discovery and/or research synthesis. It may also include low-fidelity explorations, concepts, prototypes, etc.
-            <br>
-            Anything that helped you explore ideas, possibilities, and possible solutions may be included here.
-            </p>
+      <div class="card-body col-12 border-0">
+        <h3 class="card-title">Conclusion</h3>
+        <p class="card-text">I’m sure not every project goes 100% as planned. List some things that didn’t go your team’s way and how you worked with others to come to a compromise.</p>
+      </div>
+    </div>
+    <div class="row mb-1">
+      <div class="col-6">
+        <div class="card border-0">
+          <h5 class="text-muted">CHALLENGE 01</h5>
+          <p>How did you compromise instead? What did you learn from this experience? How can you apply this to future projects?</p>
         </div>
-        <img src="images/ideate_phase.png" class="card-img-bottom" alt="...">
+      </div>
+      <div class="col-6">
+        <div class="card border-0">
+          <h5 class="text-muted">CHALLENGE 02</h5>
+          <p>How did you compromise instead? What did you learn from this experience? How can you apply this to future projects?</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card-body col-12 border-0">
+        <h4>Final Thoughts</h4>
+        <p class="card-text">Wrap up with short and concise conclusion. Be personable.</p>
       </div>
     </div>
   </section>
-  <!--  END IDEATE SECTION -->
+  <!-- END TESTING SECTION -->
+
 
   <!-- COPIED OVER M19 FOOTER -->
-  <footer>
+  <footer class="mt-4">
     <ul>
       <li>
-        <a href="#">ABOUT</a>
+        <a class="m19nav" href="#">ABOUT</a>
       </li>
       <li>
-        <a href="#mySkills-container">SKILLS</a>
+        <a class="m19nav" href="https://same-ux-bee.github.io/UX_UI_HW19/#mySkills-container">SKILLS</a>
       </li>
       <li>
-        <a href="#sectionGrid">WORK</a>
+        <a class="m19nav" href="https://same-ux-bee.github.io/UX_UI_HW19/#sectionGrid">WORK</a>
       </li>
       <li>
-        <a href="#">CONTACT</a>
+        <a class="m19nav" href="#">CONTACT</a>
       </li>
     </ul>
   </footer>
